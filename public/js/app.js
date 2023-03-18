@@ -23334,6 +23334,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 _this.$router.push('login');
               });
             case 2:
+              window.location.reload();
+            case 3:
             case "end":
               return _context.stop();
           }

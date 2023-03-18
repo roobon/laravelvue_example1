@@ -224,7 +224,8 @@
     export default {
         methods:{
             async Logoutsubmit(){
-               await axios.post('/logout').then((response)=>{this.$router.push('login')}) 
+               await axios.post('/logout').then((response)=>{this.$router.push('login')});
+               window.location.reload();
             }
         }
     }
