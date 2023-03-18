@@ -14,9 +14,9 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <router-link class="nav-link" to="/dashboard">
         <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
+        <span>Dashboard</span></router-link>
 </li>
 
 <!-- Divider -->
@@ -100,9 +100,9 @@
 
 <!-- Nav Item - Tables -->
 <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <router-link class="nav-link" to="/dashboard/test">
         <i class="fas fa-fw fa-table"></i>
-        <span>Tables</span></a>
+        <span>Test Comp</span></router-link>
 </li>
 
 <!-- Divider -->
@@ -115,7 +115,7 @@
 
 <!-- Sidebar Message -->
 <div class="sidebar-card d-none d-lg-flex">
-    <img class="sidebar-card-illustration mb-2" src="backend_assets/img/undraw_rocket.svg" alt="...">
+    <img class="sidebar-card-illustration mb-2" src="backend/img/undraw_rocket.svg" alt="...">
     <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
     <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
 </div>
